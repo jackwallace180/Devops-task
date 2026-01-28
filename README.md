@@ -32,7 +32,7 @@ I decided to use Gitea primarly because it has all the features required (self-h
 
 This setup is to self-host Gitea in a Docker container. I chose to create a `docker-compose.yml` file as it is an easy and repeatable way to deploy multiple containers, this meant i could also deploy monitoring applications at the same time.
 
-To deploy Gitea you can clone the existing docker compose file [here](/Devops-task/docker-compose.yml). Then navigate to the cloned folder in a terminal.
+To deploy Gitea you can clone the existing docker compose file [here](/docker-compose.yml). Then navigate to the cloned folder in a terminal.
 ![cmdline](image.png)
 
 Once here you need to compose the file with the following command:
